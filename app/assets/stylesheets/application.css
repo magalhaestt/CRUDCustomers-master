@@ -1,0 +1,158 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    /*border: 1px solid #ccc; */
+    background-color: white ;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+
+}
+h1{
+    color: #332E3C;
+}
+
+.field{
+    font-weight: bold;
+    color: #332E3C;
+}
+a{
+    box-shadow:inset 0px 1px 0px 0px #cf866c;
+	background:linear-gradient(to bottom, #d0451b 5%, #bc3315 100%);
+	background-color:#d0451b;
+	border-radius:3px;
+	border:1px solid #942911;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #854629;
+    
+	
+}
+a:visited{
+    color:white;
+}
+a:link{
+    color: white;
+}
+
+input[type=text]{
+    padding: 0.3rem;
+    border-radius:0.5rem;
+    border: none;
+    width: 100%;
+    background-color: white;
+}
+select{
+    padding: 0.3rem;
+    border-radius:0.5rem;
+    border: none;
+    background-color: white;
+}
+input[type=submit]{ 
+    box-shadow:inset 0px 1px 0px 0px #cf866c;
+	background:linear-gradient(to bottom, #d0451b 5%, #bc3315 100%);
+	background-color:#d0451b;
+	border-radius:3px;
+	border:1px solid #942911;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #854629;
+    width: 100%;
+  }
+
+input[type=submit]:hover { 
+    background:linear-gradient(to bottom, #bc3315 5%, #d0451b 100%);
+	background-color:#bc3315;
+  }
+
+
+a:hover{
+    background:linear-gradient(to bottom, #bc3315 5%, #d0451b 100%);
+	background-color:#bc3315;
+
+    
+}
+
+
+textarea{
+    margin: 1em 0;
+    padding: 1em;
+    border: 1px solid #ccc;
+    background-color: white;
+}
+
+
+
+.container{
+    background-color: #E5E7E6;
+    padding : 2rem;
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+}
+
+.new-client{
+    color: green;
+}
+
+
+.show-client{
+    border-radius: 2rem;
+    background-color: #E5E7E6;
+    padding: 1em;
+    margin-bottom: 1em;
+    width: 20rem;
+}
+
+tr th{
+    font-weight: bold;
+}
+
+
+.transicao{
+    transition: all 0.5s;
+}
+
+table{
+    background-color: #E5E7E6;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+.edit-client{
+    display: flex;
+    gap: 1rem;
+}

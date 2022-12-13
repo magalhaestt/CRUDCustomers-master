@@ -1,0 +1,28 @@
+<p id="notice"><%= notice %></p>
+
+<div class="show-client">
+  <p>
+    <strong>Nome:</strong>
+    <%= @customer.name %>
+  </p>
+  
+  <p>
+    <strong>Telefone:</strong>
+    <%= @customer.telefone %>
+  </p>
+  
+  <p>
+    <strong>Data de nascimento:</strong>
+    <%= @customer.birth_date %>
+  </p>
+  
+  <p>
+    <strong>CPF:</strong>
+    <%= @customer.identifier %>
+  </p>
+</div>
+
+<div class="transicao">
+  <%= link_to 'Editar', edit_customer_path(@customer) %>
+  <%= link_to 'Voltar', customers_path %>
+</div>
